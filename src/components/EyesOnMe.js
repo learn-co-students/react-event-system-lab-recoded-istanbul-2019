@@ -10,7 +10,7 @@ export class EyesOnMe extends React.Component {
         console.log('Hey! Eyes on me!');
     }
     render (){
-        return <button onFocus={this.focusNow} onBlur={this.blurNow}></button>
+        return <button onFocus={this.focusNow} onBlur={this.blurNow}>Click Me!</button>
     }
 
 }
