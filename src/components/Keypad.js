@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 export default class Keypad extends Component {
 
@@ -8,7 +8,7 @@ export default class Keypad extends Component {
 
     render() {
       return (
-        <input type="password" keyUp={this.listen} />
+        <input type="password" onKeyUp={this.listen} />
       )
     }
   

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 export default class EyesOnMe extends Component {
 
@@ -12,7 +12,7 @@ export default class EyesOnMe extends Component {
 
     render() {
       return (
-        <button focus={this.focus} blur={this.blur}>Tickle me!</button>
+        <button onFocus={this.focus} onBlur={this.blur}>Tickle me!</button>
       )
     }
   
